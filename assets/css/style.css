@@ -830,8 +830,7 @@ a,
 }
 .sliderHome2 {
 	padding-right:  50px;
-	padding-left: 50px;
-}
+	}
 /* ---------------------------------------------- /*
  *Proceso
 /* ---------------------------------------------- */
@@ -1253,5 +1252,9 @@ h2 {
 .margen-footer-movil {
 
 }
+
+.sliderHome2 {
+	padding-left:  50px;
+	}
 
 }
