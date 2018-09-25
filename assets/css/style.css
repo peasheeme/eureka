@@ -717,7 +717,7 @@ a,
 
  
 .navbar-custom .navbar-brand {
-	margin-top: -28px;
+	margin-top: -15px;
 }
 
 .navbar-custom .navbar-toggle .icon-bar {
@@ -826,6 +826,11 @@ a,
 
 .sliderHome {
 	padding-left: 100px;
+	padding-left: 50px;
+}
+.sliderHome2 {
+	padding-right:  50px;
+	padding-left: 50px;
 }
 /* ---------------------------------------------- /*
  *Proceso
@@ -1215,5 +1220,38 @@ h3.green:hover {
 	.scroll-up {
 		display: none !important;
 	}
+
+
+}
+
+@media screen and (max-width: 600px) { 
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 5px 0 15px;
+}
+h3 {
+    font-size: 26px;
+    /* text-transform: uppercase; */
+    margin: 5px 0 10px;
+    color: black;
+}
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.dispMovil {
+	text-align: center;
+}
+
+.margen-movil {
+	margin-top: 50px ;
+
+}
+
+.margen-footer-movil {
+
+}
 
 }

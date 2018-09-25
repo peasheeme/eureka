@@ -10,6 +10,8 @@
 	<!-- Bootstrap core CSS -->
 		<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
+	<!-- Bootstrap flexbox -->
+    <link rel="stylesheet" href="assets/css/bootstrap-flex.min.css">
 	<!-- Owl Carousel -->
 	<link href="assets/css/owl.theme.css" rel="stylesheet">
 	<link href="assets/css/owl.carousel.css" rel="stylesheet">
@@ -40,7 +42,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#"><img src="assets/images/logo/logo.png"></a>
+					<a class="navbar-brand" href="index.html"><img src="assets/images/logo/logo.png"></a>
 				</div>
 
 				<!-- Navbar-->
@@ -71,7 +73,7 @@
 					<div class="col-md-10">
 						<div class=" wow bounceInDown text-left">
 							<h2>Siempre es un gusto atender tus preguntas y necesidades. Nosotros nos encargaremos de todo.</h2>
-							<button class="botones">Llamanos</button>
+							<a href="tel:018120489445"><button class="botones">Llamanos</button></a>
 						</div>
 						<div class="col-md-2  "></div>
 					</div>
@@ -87,51 +89,36 @@
 		<!-- Contact-data section end -->
 
 		<section id="contact" class="section">
-
 			<div class="container">
-
-				<div class="row">
-
+				<div class="row dispMovil">
 					<div class="col-md-6 wow bounceInLeft">
-
 						<form id="contact-form" method="post" role="form">
-
 							<div class="ajax-hidden">
-
 								<div class="form-group">
 									<label class="sr-only" for="c_name">Nombre</label>
 									<input type="text" id="c_name" class="form-control" name="c_name" placeholder="Nombre">
 								</div>
-
 								<div class="form-group">
 									<label class="sr-only" for="c_email">E-mail </label>
 									<input type="email" id="c_email" class="form-control" name="c_email" placeholder="E-mail">
 								</div>
-
 								<div class="form-group">
 									<textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="Mensaje"></textarea>
 								</div>
-
 								<button type="submit" class="btn btn-custom-1-inverse">
 									<i class="fa fa-bullhorn icon-before"></i> Enviar
 								</button>
-
 							</div>
 
 							<div class="ajax-response"></div><!-- Displays status when submitting form -->
-
 						</form>
-
 					</div><!-- .col -->
-
-					<div class="col-md-6 wow bounceInUp">
-
+					<div class="col-md-6 wow bounceInUp margen-movil">
 						<h4>Telefono</h4>
 						 <a href="tel:018120489445">
 							      <img class="media-object" src="assets/images/icons/phone.png" alt="phone">
 							      81 2048 9445
 						<hr/>
-
 						<h4>E-mail</h4>
 						 <a href="mailto:info@eurekatecnologias.com">
 							      <img class="media-object" src="assets/images/icons/mail.png" alt="mail">
@@ -144,75 +131,63 @@
 							 <a href="https://www.facebook.com/eurekatecnologias/">
 							   <img class="media-object" src="assets/images/icons/fb.png" alt="facebook"> @eurekatecnologias
 							 </a>
-						
-
 					</div><!-- .col -->
-
 				</div><!-- .row -->
-
 			</div><!-- .container -->
-
 		</section>
-
 		<!-- Contact section end -->
-
-		
-		<footer id="footer">
-
+<footer id="footer">
 			<div class="container">
-
-				<div class="row">
+				<div class="row ">
 					<div class="col-xs-12 col-md-4 col-lg-6">
 						<h3 class="footer">eureka</h3>
 						<p>En Eureka Tecnologías ofrecemos soluciones en audio, video y automatización, de casas, bares, restaurantes, áreas sociales, fraccionamientos, etc.
 						</p>
 						<p class="copy"><br>
-							© 2018 Eureka, Todos los derechos reservados.
+							© 2018 Eureka Tecnologías, Todos los derechos reservados.
 						</p><br>
-						<p>Creado por Kalamedia.mx</p>
+						<p>Sitio web Diseñado por <a href="https://www.kalamedia.mx/"><img src="assets/images/logo/kalamedia.png"></a></p>
 					</div>
-					<div class="col-xs-12 col-md-4 col-lg-3">
+					
+					<div class="col-xs-6 col-md-4 col-lg-3 margen-movil">
 						<H5>NOSOTROS</H5>
-						<a class="footer-link" href="#"><span >INICIO</span></a> <br><br>
-						<a class="footer-link" href="#"><span>AUTOMATIZACIÓN</span></a><br><br>
-						<a class="footer-link" href="#"><span>SEGURIDAD</span></a><br><br>
-						<a class="footer-link" href="#"><span>AMBIENTACIÓN</span></a>
+						<a class="footer-link" href="index.html"><span >INICIO</span></a> <br>
+						<a class="footer-link" href="automatizacion.html"><span>AUTOMATIZACIÓN</span></a><br>
+						<a class="footer-link" href="seguridad.html"><span>SEGURIDAD</span></a><br>
+						<a class="footer-link" href="ambientacion.html"><span>AMBIENTACIÓN</span></a><br>
+						<a class="footer-link" href="contacto.html"><span>CONTACTO</span></a>
 					</div>
-					<div class="col-xs-12 col-md-4 col-lg-3">
-						<h5>CONTACTANOS</h5>
-						<div class="media">
-							  <div class="media-left">
-							    <a href="tel:018120489445">
-							      <img class="media-object" src="assets/images/icons/phone.png" alt="phone">
+					<div class="col-xs-6 col-md-4 col-lg-3 margen-movil2">
+						<h5 class="margen-movil">CONTACTANOS</h5>
+						
+						 <a class="hidden-sm-down" href="tel:018120489445">
+							<img src="assets/images/icons/phone.png" alt="phone">
+							 81 2048 9445 </a>
+						<a  class="hidden-md-up" href="tel:018120489445">
+							<img src="assets/images/icons/phone.png" alt="phone"></a>
+							<br> <br>
+							     
+						 <a class="hidden-sm-down" href="mailto:info@eurekatecnologias.com">
+							      <img  src="assets/images/icons/mail.png" alt="mail">
+							      info@eurekatecnologias.com
 							    </a>
-							  </div>
-							  <div class="media-body">
-							    <h4 class="media-heading ">01 81 2048 9445</h4>
-							   </div>
-						</div>
-						<div class="media">
-							  <div class="media-left">
-							    <a href="mailto:info@eurekatecnologias.com">
-							      <img class="media-object" src="assets/images/icons/mail.png" alt="mail">
+							    <a class="hidden-md-up" href="mailto:info@eurekatecnologias.com">
+							      <img  src="assets/images/icons/mail.png" alt="mail">
+							     
 							    </a>
-							  </div>
-							  <div class="media-body">
-							    <h4 class="media-heading">info@eurekatecnologias.com</h4>
-							   </div>
-						</div> <br><br>
-						<h5>SIGUENOS</h5>
-						<div class="media">
-							  <div class="media-left">
-							    <a href="https://www.facebook.com/eurekatecnologias/">
-							      <img class="media-object" src="assets/images/icons/fb.png" alt="facebook">
-							    </a>
-							  </div>
-							  <div class="media-body">
-							    <h4 class="media-heading">eurekatecnologias</h4>
-							   </div>
-						</div>
+							    <br><br>
+						<h5 class="margen-movil2">SIGUENOS</h5>
+									
+							 <a class="hidden-sm-down" href="https://www.facebook.com/eurekatecnologias/">
+							   <img  src="assets/images/icons/fb.png" alt="facebook"> @eurekatecnologias 
+							 </a>
+							 <a class="hidden-md-up" href="https://www.facebook.com/eurekatecnologias/">
+							   <img src="assets/images/icons/fb.png" alt="facebook"> 
+							 </a>
 										
 					</div>
+
+					</div><!-- .col -->
 
 				</div><!-- .row -->
 
@@ -243,13 +218,8 @@
 	<script src="assets/js/jquery.waypoints.js"></script>
 	<!-- WOW - Reveal Animations When You Scroll -->
 	<script src="assets/js/wow.min.js"></script>
-	<!-- Smooth scroll -->
-	<script src="assets/js/smoothscroll.js"></script>
 	<!-- Resp. video -->
 	<script src="assets/js/jquery.fitvids.js"></script>
-	<!-- Google Maps -->
-	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-	<script src="assets/js/gmaps.js"></script>
 	<!-- Custom scripts -->
 	<script src="assets/js/custom.js"></script>
 

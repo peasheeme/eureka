@@ -10,6 +10,9 @@
 	<!-- Bootstrap core CSS -->
 		<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
+	<!-- Bootstrap flexbox -->
+    <link rel="stylesheet" href="assets/css/bootstrap-flex.min.css">
 	<!-- Owl Carousel -->
 	<link href="assets/css/owl.theme.css" rel="stylesheet">
 	<link href="assets/css/owl.carousel.css" rel="stylesheet">
@@ -40,7 +43,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#"><img src="assets/images/logo/logo.png"></a>
+					<a class="navbar-brand" href="index.html"><img src="assets/images/logo/logo.png"></a>
 				</div>
 
 				<!-- Navbar-->
@@ -51,9 +54,6 @@
 						<li><a href="seguridad.html">Seguridad</a></li>
 						<li><a class="active" href="ambientacion.html active">Ambientación</a></li>
 						<li><a href="contacto.html">Contacto</a></li>
-						<!--<li><a href="#team-header">Contacto</a></li>
-						
-						<li><a href="components.html">Components</a></li>-->
 					</ul>
 
 			</div>
@@ -71,7 +71,7 @@
 					<div class="col-md-10">
 						<div class=" wow bounceInDown text-left">
 							<h2>Diseñamos e Instalamos Audio, Video e Iluminación para tu negocio o casa.</h2>
-							<button class="botones">Contáctanos</button>
+							<a href="contacto.html"><button class="botones">Contáctanos</button></a>
 						</div>
 						<div class="col-md-2  "></div>
 					</div>
@@ -276,7 +276,7 @@
 
 	<section class="section">
 		<div class="container">
-			<div class="row">
+			<div class="row dispMovil">
 				<div class="col-xs-12 col-sm-6">
 					<div class="row">
 						<div class="col-md-2">
@@ -310,7 +310,7 @@
 
 				<div class="row">
 					<div class="col-xs-12 text-center">
-						<button class="btn-center">Contáctanos</button>
+						<a href="contacto.html"><button class="btn-center">Contáctanos</button></a>
 					</div>
 				</div>
 			</div><!-- container--->
@@ -366,67 +366,58 @@
 
 		<!-- Clients section end -->
 
-		
-
-
-
-		
-		<footer id="footer">
-
+<footer id="footer">
 			<div class="container">
-
-				<div class="row">
+				<div class="row ">
 					<div class="col-xs-12 col-md-4 col-lg-6">
 						<h3 class="footer">eureka</h3>
 						<p>En Eureka Tecnologías ofrecemos soluciones en audio, video y automatización, de casas, bares, restaurantes, áreas sociales, fraccionamientos, etc.
 						</p>
 						<p class="copy"><br>
-							© 2018 Eureka, Todos los derechos reservados.
+							© 2018 Eureka Tecnologías, Todos los derechos reservados.
 						</p><br>
-						<p>Creado por Kalamedia.mx</p>
+						<p>Sitio web Diseñado por <a href="https://www.kalamedia.mx/"><img src="assets/images/logo/kalamedia.png"></a></p>
 					</div>
-					<div class="col-xs-12 col-md-4 col-lg-3">
+					
+					<div class="col-xs-6 col-md-4 col-lg-3 margen-movil">
 						<H5>NOSOTROS</H5>
-						<a class="footer-link" href="#"><span >INICIO</span></a> <br><br>
-						<a class="footer-link" href="#"><span>AUTOMATIZACIÓN</span></a><br><br>
-						<a class="footer-link" href="#"><span>SEGURIDAD</span></a><br><br>
-						<a class="footer-link" href="#"><span>AMBIENTACIÓN</span></a>
+						<a class="footer-link" href="index.html"><span >INICIO</span></a> <br>
+						<a class="footer-link" href="automatizacion.html"><span>AUTOMATIZACIÓN</span></a><br>
+						<a class="footer-link" href="seguridad.html"><span>SEGURIDAD</span></a><br>
+						<a class="footer-link" href="ambientacion.html"><span>AMBIENTACIÓN</span></a><br>
+						<a class="footer-link" href="contacto.html"><span>CONTACTO</span></a>
 					</div>
-					<div class="col-xs-12 col-md-4 col-lg-3">
-						<h5>CONTACTANOS</h5>
-						<div class="media">
-							  <div class="media-left">
-							    <a href="tel:018120489445">
-							      <img class="media-object" src="assets/images/icons/phone.png" alt="phone">
+					<div class="col-xs-6 col-md-4 col-lg-3 margen-movil2">
+						<h5 class="margen-movil">CONTACTANOS</h5>
+						
+						 <a class="hidden-sm-down" href="tel:018120489445">
+							<img src="assets/images/icons/phone.png" alt="phone">
+							 81 2048 9445 </a>
+						<a  class="hidden-md-up" href="tel:018120489445">
+							<img src="assets/images/icons/phone.png" alt="phone"></a>
+							<br> <br>
+							     
+						 <a class="hidden-sm-down" href="mailto:info@eurekatecnologias.com">
+							      <img  src="assets/images/icons/mail.png" alt="mail">
+							      info@eurekatecnologias.com
 							    </a>
-							  </div>
-							  <div class="media-body">
-							    <h4 class="media-heading ">01 81 2048 9445</h4>
-							   </div>
-						</div>
-						<div class="media">
-							  <div class="media-left">
-							    <a href="mailto:info@eurekatecnologias.com">
-							      <img class="media-object" src="assets/images/icons/mail.png" alt="mail">
+							    <a class="hidden-md-up" href="mailto:info@eurekatecnologias.com">
+							      <img  src="assets/images/icons/mail.png" alt="mail">
+							     
 							    </a>
-							  </div>
-							  <div class="media-body">
-							    <h4 class="media-heading">info@eurekatecnologias.com</h4>
-							   </div>
-						</div> <br><br>
-						<h5>SIGUENOS</h5>
-						<div class="media">
-							  <div class="media-left">
-							    <a href="https://www.facebook.com/eurekatecnologias/">
-							      <img class="media-object" src="assets/images/icons/fb.png" alt="facebook">
-							    </a>
-							  </div>
-							  <div class="media-body">
-							    <h4 class="media-heading">eurekatecnologias</h4>
-							   </div>
-						</div>
+							    <br><br>
+						<h5 class="margen-movil2">SIGUENOS</h5>
+									
+							 <a class="hidden-sm-down" href="https://www.facebook.com/eurekatecnologias/">
+							   <img  src="assets/images/icons/fb.png" alt="facebook"> @eurekatecnologias 
+							 </a>
+							 <a class="hidden-md-up" href="https://www.facebook.com/eurekatecnologias/">
+							   <img src="assets/images/icons/fb.png" alt="facebook"> 
+							 </a>
 										
 					</div>
+
+					</div><!-- .col -->
 
 				</div><!-- .row -->
 
