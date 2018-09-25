@@ -78,7 +78,9 @@ p.blanco {
 /* ---------------------------------------------- /*
  * Transition elsements
 /* ---------------------------------------------- */
-
+.navbar:focus {
+	color: red;
+}
 a,
 .btn,
 .navbar,
@@ -706,15 +708,14 @@ a,
 
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus,
-.navbar-custom .nav li.active {
-	background: none;
+.navbar-custom .nav li a.active
+  {
 	outline: 0;
+	background: none;
 	color: #BFD62E;
 }
-.active {
-	color: red;
-}
 
+ 
 .navbar-custom .navbar-brand {
 	margin-top: -28px;
 }
