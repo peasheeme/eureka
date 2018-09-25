@@ -28,7 +28,26 @@
 	<link href="assets/css/style.css" rel="stylesheet" media="screen">
 </head>
 <body>
-	
+
+		<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="326366814171952"
+  theme_color="#DCE442"
+  logged_in_greeting="Hola! En que podemos ayudarte?"
+  logged_out_greeting="Hola! En que podemos ayudarte?">
+</div>
+
 	<div class="wrapper">
 		<div class="scroll-up">
 			<a href="#intro"><i class="fa fa-angle-up"></i></a>
@@ -246,86 +265,62 @@
 	<section class="section">
 		<div class="container">
 			<div class="row dispMovil">
+
+			
+
 				<div class="col-xs-12 col-sm-4">
-					<div class="row">
-						<div class="col-md-3">
-							<img src="assets/images/icons/ahorra.png">
-						</div>
-						<div class="col-md-7 spacio">
-							<h4>Ahorra energia</h4>
+						<div class="vertical-service ">
+							<h4><img src="assets/images/icons/ahorra.png"> Ahorra energia</h4>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt.</p>
 						</div>
-					</div>
-					
 				</div>
 				<div class="col-xs-12 col-sm-4">
-					<div class="row">
-						<div class="col-md-3">
-							<img src="assets/images/icons/viaja.png">
-						</div>
-						<div class="col-md-7 spacio" >
-							<h4>Viaja confiado</h4>
+						<div class="vertical-service ">
+							<h4><img src="assets/images/icons/viaja.png"> Viaja confiadogia</h4>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt.</p>
 						</div>
-					</div>
-					
 				</div>
+
 				<div class="col-xs-12 col-sm-4">
-					<div class="row ">
-						<div class="col-md-3">
-							<img src="assets/images/icons/niño.png">
-						</div>
-						<div class="col-md-7 spacio">
-							<h4>Niños en casa</h4>
+						<div class="vertical-service ">
+							<h4><img src="assets/images/icons/niño.png"> Niños en casa</h4>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt.</p>
 						</div>
-					</div>
-					
 				</div>
+				
 				</div>
+				
 				<div class="row  dispMovil">
+
 					<div class="col-xs-12 col-sm-4">
-					<div class="row">
-						<div class="col-md-3">
-							<img src="assets/images/icons/relax.png">
-						</div>
-						<div class="col-md-7 spacio">
-							<h4>Rutina de relajación</h4>
+						<div class="vertical-service ">
+							<h4><img src="assets/images/icons/relax.png"> Rutina de relajación</h4>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt.</p>
 						</div>
-					</div>
-					
 				</div>
+
 				<div class="col-xs-12 col-sm-4">
-					<div class="row">
-						<div class="col-md-3">
-							<img src="assets/images/icons/musica.png">
-						</div>
-						<div class="col-md-7 spacio">
-							<h4>Amante de la música</h4>
+						<div class="vertical-service ">
+							<h4><img src="assets/images/icons/musica.png"> Amante de la música</h4>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt.</p>
 						</div>
-					</div>
-					
 				</div>
+
 				<div class="col-xs-12 col-sm-4">
-					<div class="row">
-						<div class="col-md-3">
-							<img src="assets/images/icons/adulto.png">
-						</div>
-						<div class="col-md-7 spacio services">
-							<h4>Adultos mayores</h4>
+						<div class="vertical-service ">
+							<h4><img src="assets/images/icons/adulto.png"> Adultos mayores</h4>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt.</p>
 						</div>
-					</div>
-				   </div>
 				</div>
+				
+				
+				</div> <br><br>
 
 				<div class="row">
 					<div class="col-xs-12 text-center">

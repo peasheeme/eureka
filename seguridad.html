@@ -28,6 +28,24 @@
 	<link href="assets/css/style.css" rel="stylesheet" media="screen">
 </head>
 <body>
+		<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="326366814171952"
+  theme_color="#DCE442"
+  logged_in_greeting="Hola! En que podemos ayudarte?"
+  logged_out_greeting="Hola! En que podemos ayudarte?">
+</div>
 	<div class="wrapper">
 		<div class="scroll-up">
 			<a href="#intro"><i class="fa fa-angle-up"></i></a>
@@ -154,73 +172,53 @@
 		<div class="container">
 			<div class="row dispMovil">
 
-				<div class="col-xs-12 col-sm-6 text-xs-center">
-					<div class="row ">
-						<div class="col-md-2">
-							<img src="assets/images/icons/hogar.png">
-						</div>
-						<div class="col-md-10 spacio">
-							<h4>En el Hogar</h4>
+				<div class="col-xs-12 col-sm-3">
+						<div class="vertical-service ">
+							<h4><img src="assets/images/icons/hogar.png"> En el Hogar</h4>
 							<p><span class="verde"> &ofcir; </span> Cuando estes de vacaciones. </p>
 							<p class="automatizacion"></p>
 					<p><span class="verde"> &ofcir; </span> Cuando tus hijos esten solos.</p>
 					<p class="automatizacion"></p>
 					<p><span class="verde"> &ofcir; </span> Cuando olvidas cerrar tu casa.</p>
 					<p class="automatizacion"></p>
-					
 						</div>
-					</div>
-					
-				</div>
-				<div class="col-xs-12 col-sm-6 text-xs-center">
-					<div class="row">
-						<div class="col-md-2">
-							<img src="assets/images/icons/negocio.png">
-						</div>
-						<div class="col-md-10 spacio" >
-							<h4>En tu negocio</h4>
-							<p><span class="verde"> &ofcir; </span> Cuando saes de la oficina.</p>
-							<p class="automatizacion"></p>
-					<p><span class="verde"> &ofcir; </span>  Lorem ipsum dolor sit amet, </p>
-					<p class="automatizacion"></p>
-					<p><span class="verde"> &ofcir; </span>  Lorem ipsum dolor sit amet, </p>
-					<p class="automatizacion"></p>
-						</div>
-					</div>
-					
-				</div>
-				<div class="col-xs-12 col-sm-6 text-xs-center">
-					<div class="row">
-						<div class="col-md-2">
-							<img src="assets/images/icons/beneficios.png">
-						</div>
-						<div class="col-md-10 spacio">
-							<h4>Beneficios</h4>
-							<p><span class="verde"> &ofcir; </span>  Lorem ipsum dolor sit amet, </p>
-							<p class="automatizacion"></p>
-					<p><span class="verde"> &ofcir; </span>  Lorem ipsum dolor sit amet, </p>
-					<p class="automatizacion"></p>
-					<p><span class="verde"> &ofcir; </span>  Lorem ipsum dolor sit amet, </p>
-					<p class="automatizacion"></p>
-						</div>
-					</div>
-					
-				</div>
-				<div class="col-xs-12 col-sm-6">
-					<div class="row">
-						<div class="col-md-2">
-							<img src="assets/images/icons/ventajas.png">
-						</div>
-						<div class="col-md-10 spacio">
-							<h4>Ventajas</h4>
-							<p><span class="verde"> &ofcir; </span>  Controla todo desde cualquier dispositivo móvil. </p>
-							<p class="automatizacion"></p>
-				</div>
-					
-				</div>
 				</div>
 
-			</div>
+				<div class="col-xs-12 col-sm-3">
+						<div class="vertical-service ">
+							<h4><img src="assets/images/icons/negocio.png"> En tu negocio</h4>
+							<p><span class="verde"> &ofcir; </span> Cuando saes de la oficina.</p>
+							<p class="automatizacion"></p>
+					<p><span class="verde"> &ofcir; </span> Lorem ipsum dolor sit amet,</p>
+					<p class="automatizacion"></p>
+					<p><span class="verde"> &ofcir; </span> Lorem ipsum dolor sit amet,</p>
+					<p class="automatizacion"></p>
+						</div>
+				</div>
+				<div class="col-xs-12 col-sm-3">
+						<div class="vertical-service ">
+							<h4><img src="assets/images/icons/beneficios.png"> Beneficios</h4>
+							<p><span class="verde"> &ofcir; </span> Cuando saes de la oficina.</p>
+							<p class="automatizacion"></p>
+					<p><span class="verde"> &ofcir; </span> Lorem ipsum dolor sit amet,</p>
+					<p class="automatizacion"></p>
+					<p><span class="verde"> &ofcir; </span> Lorem ipsum dolor sit amet,</p>
+					<p class="automatizacion"></p>
+						</div>
+				</div>
+				<div class="col-xs-12 col-sm-3">
+						<div class="vertical-service ">
+							<h4><img src="assets/images/icons/ventajas.png">Ventajas</h4>
+							<p><span class="verde"> &ofcir; </span> Cuando saes de la oficina.</p>
+							<p class="automatizacion"></p>
+					<p><span class="verde"> &ofcir; </span> Lorem ipsum dolor sit amet,</p>
+					<p class="automatizacion"></p>
+					<p><span class="verde"> &ofcir; </span> Lorem ipsum dolor sit amet,</p>
+					<p class="automatizacion"></p>
+						</div>
+				</div>
+
+			</div> <br><br>
 			<div class="row">
 				<div class="col-xs-12 col-md-6">
 					<img src="assets/images/icons/security.png">
@@ -228,7 +226,7 @@
 				<div class="col-xs-12 col-md-6 text-center">
 					<h3>llamanos</h3>
 					<a href="tel:018120489445">
-							      <img class="media-object" src="assets/images/icons/phone.png" alt="phone"><h3 class="green">01 8120 123456</h3> <br>
+						<img src="assets/images/icons/phone.png" alt="phone"><h3 class="green">01 8120 123456</h3> <br>
 							    </a>
 					<div class="row">
 					<div class="col-xs-12 ">
