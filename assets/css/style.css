@@ -771,7 +771,7 @@ a,
 #intro {
 	background: rgba(34, 34, 34, .6) !important;
 	z-index: auto !important;
-	padding: 260px 0 160px 0;
+	padding: 230px 0 160px 0;
 	text-align: center;
 }
 
@@ -797,6 +797,9 @@ a,
 	width: 200px;
 	height: 60px;
 	font-size: 18px;
+}
+h3.gray {
+	color: #AFAFAF;
 }
 
 
@@ -1127,6 +1130,7 @@ h3.footer {
 p.automatizacion {
 	padding-left: 30px;
 	margin-bottom: 30px;
+	margin-top: -14px;
 }
 
 b, strong {
